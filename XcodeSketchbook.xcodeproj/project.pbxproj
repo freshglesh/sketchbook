@@ -45,6 +45,7 @@
 		83D649CC1A89287000FB58FC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83D649CB1A89287000FB58FC /* Images.xcassets */; };
 		83F649771A89158F00805F25 /* OfficinaSerifBookITC-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 83F649731A89158F00805F25 /* OfficinaSerifBookITC-Regular.otf */; };
 		83F649781A89158F00805F25 /* OfficinaSerifMediumITC-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 83F649741A89158F00805F25 /* OfficinaSerifMediumITC-Regular.otf */; };
+		C4C205C11A9DDF41005BFD8A /* MyPopSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C205C01A9DDF41005BFD8A /* MyPopSegue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -131,6 +132,8 @@
 		83D649CB1A89287000FB58FC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		83F649731A89158F00805F25 /* OfficinaSerifBookITC-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OfficinaSerifBookITC-Regular.otf"; sourceTree = "<group>"; };
 		83F649741A89158F00805F25 /* OfficinaSerifMediumITC-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OfficinaSerifMediumITC-Regular.otf"; sourceTree = "<group>"; };
+		C4C205BF1A9DDF41005BFD8A /* MyPopSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPopSegue.h; sourceTree = "<group>"; };
+		C4C205C01A9DDF41005BFD8A /* MyPopSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPopSegue.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +182,8 @@
 				834779541A8910F9002813BF /* Main.storyboard */,
 				834779591A8910F9002813BF /* LaunchScreen.xib */,
 				8347794A1A8910F9002813BF /* Supporting Files */,
+				C4C205BF1A9DDF41005BFD8A /* MyPopSegue.h */,
+				C4C205C01A9DDF41005BFD8A /* MyPopSegue.m */,
 			);
 			path = XcodeSketchbook;
 			sourceTree = "<group>";
@@ -401,6 +406,7 @@
 				833DCE1F1A892A2E00C37D7D /* BKSegmentedControl.m in Sources */,
 				834779921A89121B002813BF /* BKTabBarController.m in Sources */,
 				834779AF1A8913A2002813BF /* BKLabel.m in Sources */,
+				C4C205C11A9DDF41005BFD8A /* MyPopSegue.m in Sources */,
 				834779901A89121B002813BF /* BKSwitch.m in Sources */,
 				834779971A89121B002813BF /* UINavigationBar+BKYellowNavigationBar.m in Sources */,
 				834779931A89121B002813BF /* BKYellowNavigationBar.m in Sources */,
