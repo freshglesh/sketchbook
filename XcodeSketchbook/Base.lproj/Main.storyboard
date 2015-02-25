@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="yRc-Dd-zpl">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="yRc-Dd-zpl">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
@@ -7,6 +7,7 @@
     </dependencies>
     <customFonts key="customFonts">
         <mutableArray key="OfficinaSerifBookITC-Regular.otf">
+            <string>OfficinaSerifBookITC-Regular</string>
             <string>OfficinaSerifBookITC-Regular</string>
             <string>OfficinaSerifBookITC-Regular</string>
             <string>OfficinaSerifBookITC-Regular</string>
@@ -174,11 +175,11 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bk-slider-minus" translatesAutoresizingMaskIntoConstraints="NO" id="C8m-S9-S3Z">
                                 <rect key="frame" x="12" y="84" width="22" height="22"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bk-slider-plus" translatesAutoresizingMaskIntoConstraints="NO" id="USA-Cr-7iF">
-                                <rect key="frame" x="286" y="84" width="22" height="22"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bk-slider-plus" translatesAutoresizingMaskIntoConstraints="NO" id="USA-Cr-7iF">
+                                <rect key="frame" x="282" y="84" width="22" height="22"/>
                             </imageView>
-                            <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="8sb-GO-XN8" customClass="BKSlider">
-                                <rect key="frame" x="40" y="80" width="240" height="31"/>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="8sb-GO-XN8" customClass="BKSlider">
+                                <rect key="frame" x="40" y="80" width="236" height="31"/>
                             </slider>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -197,6 +198,54 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GAK-wv-AFE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-236" y="1144"/>
+        </scene>
+        <!--Buttons-->
+        <scene sceneID="gzK-8r-SeF">
+            <objects>
+                <viewController id="rqD-Uz-RjA" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uOr-jW-Z0l"/>
+                        <viewControllerLayoutGuide type="bottom" id="Opc-WA-Jlc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FUv-c7-54J">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E1C-2r-0Lw">
+                                <rect key="frame" x="137" y="250" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="sbd-PM-y87" kind="modal" id="63G-c8-bCj"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Buttons" id="Snj-YO-1ib"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l1s-6X-Ula" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="150" y="1144"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="1MU-Rg-hj3">
+            <objects>
+                <viewController id="sbd-PM-y87" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="E59-H2-r1D"/>
+                        <viewControllerLayoutGuide type="bottom" id="mv4-r2-32d"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9o0-K7-j0g">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l42-UA-IYW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="533" y="1144"/>
         </scene>
         <!--Ещё-->
         <scene sceneID="QRM-4g-aFy">
@@ -264,18 +313,18 @@
                         <sections>
                             <tableViewSection id="Avg-xS-OHw">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="195" id="4W4-li-zgQ">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="154" id="4W4-li-zgQ">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" tableViewCell="4W4-li-zgQ" id="d6N-Kd-lWe">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Пожалуйста, ознакомьтесь с правилами использования элементов в Beeline Guidelines" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dHl-2W-Id1" customClass="BKLabelA4">
-                                                    <rect key="frame" x="16" y="112" width="288" height="61"/>
+                                                    <rect key="frame" x="16" y="102" width="288" height="29"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="288" id="CZx-C4-z5G"/>
                                                         <constraint firstAttribute="width" constant="288" id="MW3-0W-8er"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="default">
@@ -286,11 +335,11 @@
                                                     </variation>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SDK Beeline содержит набор кастомизированных элементов управления, обязательных к использованию" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j1V-vC-ep6" customClass="BKLabelA3">
-                                                    <rect key="frame" x="16" y="14" width="288" height="82"/>
+                                                    <rect key="frame" x="16" y="14" width="288" height="72"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="288" id="2lE-1a-orL"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="default">
@@ -377,6 +426,23 @@
                                             <segue destination="ROZ-SY-R8X" kind="push" id="QGC-Jk-J1R"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="5Bc-Wd-Wdb" rowHeight="60" style="IBUITableViewCellStyleDefault" id="Aeo-BL-Pix">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" tableViewCell="Aeo-BL-Pix" id="22Q-pA-cvS">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Buttons" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5Bc-Wd-Wdb">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="OfficinaSerifBookITC-Regular" family="OfficinaSerifBookITC" pointSize="18"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="rqD-Uz-RjA" kind="push" id="wXD-7U-4m3"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -438,7 +504,31 @@
                     <view key="view" contentMode="scaleToFill" id="15n-II-h7X">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" placeholderIntrinsicWidth="100" placeholderIntrinsicHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Iz8-MJ-9cW" customClass="BKCheckBox">
+                                <rect key="frame" x="16" y="80" width="100" height="22"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Check me" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YqM-mC-3JW" customClass="BKLabelA3">
+                                <rect key="frame" x="48" y="80" width="78" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="YqM-mC-3JW" firstAttribute="leading" secondItem="15n-II-h7X" secondAttribute="leading" constant="16" id="78d-WU-hbJ"/>
+                            <constraint firstItem="Iz8-MJ-9cW" firstAttribute="top" secondItem="zK8-5L-8gL" secondAttribute="bottom" constant="16" id="7bO-gm-7EX"/>
+                            <constraint firstItem="Iz8-MJ-9cW" firstAttribute="leading" secondItem="15n-II-h7X" secondAttribute="leading" constant="16" id="Xgp-LG-zkr"/>
+                            <constraint firstItem="YqM-mC-3JW" firstAttribute="centerY" secondItem="Iz8-MJ-9cW" secondAttribute="centerY" id="oY2-Fh-nrt"/>
+                            <constraint firstItem="YqM-mC-3JW" firstAttribute="leading" secondItem="15n-II-h7X" secondAttribute="leading" constant="48" id="z6E-7f-cOO"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="78d-WU-hbJ"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Checkbox" id="t8B-bM-xuS"/>
                 </viewController>
