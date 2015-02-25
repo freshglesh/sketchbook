@@ -14,52 +14,6 @@
         </mutableArray>
     </customFonts>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="SKE-kM-MLh">
-            <objects>
-                <viewController id="hD8-29-1UQ" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="CZy-DI-lxS"/>
-                        <viewControllerLayoutGuide type="bottom" id="43T-wo-Rr7"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="MQT-Lm-x42">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cmU-MR-bPg">
-                                <rect key="frame" x="154" y="268" width="292" height="64"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bk-check-box" translatesAutoresizingMaskIntoConstraints="NO" id="jFD-lf-vzo">
-                                        <rect key="frame" x="20" y="21" width="22" height="22"/>
-                                    </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Робот, начинай отсюда!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CoK-ur-xQs">
-                                        <rect key="frame" x="50" y="20" width="222" height="24"/>
-                                        <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="20"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstItem="CoK-ur-xQs" firstAttribute="leading" secondItem="jFD-lf-vzo" secondAttribute="trailing" constant="8" symbolic="YES" id="0pf-G3-vcS"/>
-                                    <constraint firstAttribute="bottom" secondItem="CoK-ur-xQs" secondAttribute="bottom" constant="20" symbolic="YES" id="861-vk-7m8"/>
-                                    <constraint firstItem="jFD-lf-vzo" firstAttribute="centerY" secondItem="CoK-ur-xQs" secondAttribute="centerY" id="DVS-Yh-frF"/>
-                                    <constraint firstItem="jFD-lf-vzo" firstAttribute="leading" secondItem="cmU-MR-bPg" secondAttribute="leading" constant="20" symbolic="YES" id="Eyg-lN-fLj"/>
-                                    <constraint firstAttribute="trailing" secondItem="CoK-ur-xQs" secondAttribute="trailing" constant="20" symbolic="YES" id="Ztf-sg-sR8"/>
-                                    <constraint firstItem="CoK-ur-xQs" firstAttribute="top" secondItem="cmU-MR-bPg" secondAttribute="top" constant="20" symbolic="YES" id="wpu-Ul-6ux"/>
-                                </constraints>
-                            </view>
-                        </subviews>
-                        <constraints>
-                            <constraint firstAttribute="centerX" secondItem="cmU-MR-bPg" secondAttribute="centerX" id="02a-yE-UYa"/>
-                            <constraint firstAttribute="centerY" secondItem="cmU-MR-bPg" secondAttribute="centerY" id="fcs-gt-0nX"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gCT-qN-X0j" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="159" y="-234"/>
-        </scene>
         <!--Баланс-->
         <scene sceneID="qK7-bs-mn9">
             <objects>
@@ -141,7 +95,7 @@
             </objects>
             <point key="canvasLocation" x="-1261" y="18"/>
         </scene>
-        <!--View Controller-->
+        <!--Офисы-->
         <scene sceneID="Qlw-Ri-Zkh">
             <objects>
                 <viewController id="G8X-tH-nvL" sceneMemberID="viewController">
@@ -154,7 +108,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="XRg-ST-X8P"/>
+                    <navigationItem key="navigationItem" title="Офисы" id="XRg-ST-X8P"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qlz-Ju-IOG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -197,7 +151,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GAK-wv-AFE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-236" y="1144"/>
+            <point key="canvasLocation" x="-393" y="710"/>
         </scene>
         <!--Buttons-->
         <scene sceneID="gzK-8r-SeF">
@@ -231,7 +185,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l1s-6X-Ula" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="278" y="1160"/>
+            <point key="canvasLocation" x="135" y="726"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="1MU-Rg-hj3">
@@ -274,7 +228,7 @@
                                 </variation>
                             </navigationBar>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Dt3-ae-odH" firstAttribute="top" secondItem="E59-H2-r1D" secondAttribute="bottom" id="E4R-cU-ynz"/>
                             <constraint firstItem="Dt3-ae-odH" firstAttribute="leading" secondItem="9o0-K7-j0g" secondAttribute="leadingMargin" id="Hoe-oh-ljb"/>
@@ -292,7 +246,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l42-UA-IYW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1006" y="1144"/>
+            <point key="canvasLocation" x="807" y="726"/>
         </scene>
         <!--Ещё-->
         <scene sceneID="QRM-4g-aFy">
@@ -311,7 +265,7 @@
             </objects>
             <point key="canvasLocation" x="-1261" y="2746"/>
         </scene>
-        <!--View Controller-->
+        <!--Еще-->
         <scene sceneID="J21-MN-qdD">
             <objects>
                 <viewController id="ODa-7V-qCT" sceneMemberID="viewController">
@@ -322,15 +276,26 @@
                     <view key="view" contentMode="scaleToFill" id="r2f-ES-xfA">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="g-1" translatesAutoresizingMaskIntoConstraints="NO" id="iPU-07-KIZ">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="iPU-07-KIZ" firstAttribute="top" secondItem="r2f-ES-xfA" secondAttribute="top" id="Q7H-Vk-9IT"/>
+                            <constraint firstAttribute="centerX" secondItem="iPU-07-KIZ" secondAttribute="centerX" id="cfK-b0-kuS"/>
+                            <constraint firstAttribute="bottom" secondItem="iPU-07-KIZ" secondAttribute="bottom" id="wzf-Zz-NNx"/>
+                            <constraint firstItem="iPU-07-KIZ" firstAttribute="leading" secondItem="r2f-ES-xfA" secondAttribute="leading" id="y7b-R2-w2C"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="XKv-B6-Ciq"/>
+                    <navigationItem key="navigationItem" title="Еще" id="XKv-B6-Ciq"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tvu-Tt-JJE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-825" y="2752"/>
         </scene>
-        <!--View Controller-->
+        <!--Настройки-->
         <scene sceneID="efd-Ag-8A0">
             <objects>
                 <viewController id="pTI-7J-LRA" sceneMemberID="viewController">
@@ -343,7 +308,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="lRz-DD-WXN"/>
+                    <navigationItem key="navigationItem" title="Настройки" id="lRz-DD-WXN"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hpp-Hm-n51" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -538,7 +503,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tcw-kM-p1G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-382" y="444"/>
+            <point key="canvasLocation" x="-393" y="18"/>
         </scene>
         <!--Checkbox-->
         <scene sceneID="gxN-1e-L5i">
@@ -581,7 +546,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="goF-id-HJg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="144" y="460"/>
+            <point key="canvasLocation" x="5" y="18"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="tu3-md-Ocw">
@@ -661,10 +626,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bk-check-box" width="22" height="22"/>
         <image name="bk-slider-minus" width="22" height="22"/>
         <image name="bk-slider-plus" width="22" height="22"/>
         <image name="close-y" width="36" height="36"/>
+        <image name="g-1" width="320" height="320"/>
         <image name="tab-add-w" width="36" height="36"/>
         <image name="tab-map-w" width="36" height="36"/>
         <image name="tab-more-w" width="36" height="36"/>
